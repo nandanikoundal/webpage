@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+header{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(rgb(8, 8, 58),rgb(13, 13, 63));
+    opacity: 86%;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-flex;
+    color: rgb(103, 190, 234);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: capitalize;
+   margin-left: 10px;
+
+}
+img{
+    background-image: url(https://i.pinimg.com/originals/2e/cf/73/2ecf7364cd78b7222311518159a72179.jpg);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* padding: 4px; */
+    /* float: left; */
+}
+
+a,nav li{
+    display: inline-block;
+    list-style: none;
+    padding:  10px;
+    color: rgb(103, 190, 234);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a:hover{
+    color: white;
+}
+.backImg{
+    background-image: url(https://railrocker.com/playground/wp-content/uploads/2019/06/christ-the-redeemer-rio-de-janeiro-south-america-bucket-list.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backImg h1{
+    padding-top: 150px;
+    text-align: center;
+    color: (rgb(44, 82, 101),rgb(64, 101, 173));
+    font-size: 60px;
+}
+.backImg h2{
+    /* padding-bottom: 150px; */
+    text-align: center;
+    color: rgb(16, 39, 52);
+    font-size: 70px;
+}
+/* button{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+button{
+    background-color: rgb(26, 57, 131);
+} */
+.btn{
+    text-align: center;
+    color: rgb(56, 124, 198);
+}
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    /* position: absolute; */
+    bottom: 20px;
+    /* text-align: center; */
+    float:left;
+  
+    
+    /* left: 70%; */
+    transform: translateX(40%);
+    max-width: 1400px;
+    width: 800px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="date"],
+input[type="submit"] {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* padding-top: 20px; */
+    margin-top: 10%;
+}
+
+/* input[type="submit"]:hover {
+    background-color: #0056b3;
+} */
